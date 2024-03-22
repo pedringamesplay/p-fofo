@@ -1,20 +1,46 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 40;
 }
 
 .cabecalho {
     background-color: #4FACF6;
-    color: black;
+    color: white;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
 }
 
 .cabecalho-imagem{
    width: 10%;
 }
 
-.cabecalho-lista-item{
+.cabecalho-imagem-item{
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.escola-imagem{
+    width: 30%;
+}
+
+.Loja{
+     background-image: linear-gradient(#0661AD,);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.escola-div-conteudo{
+    width: 25%;
+}
+
+.Titulo-da-loja{
+    padding: 24px 10;
+}
+
+.Presidente-image{
+    width: 120px;
 }
